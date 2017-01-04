@@ -4167,6 +4167,48 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'title' => '<none>',
   'cache' => -1,
 );
+  $export['block'][] = array(
+  'bid' => 304,
+  'module' => 'islandora_collection_search',
+  'delta' => 'islandora_collection_search',
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 305,
+  'module' => 'islandora_collection_search',
+  'delta' => 'islandora_collection_search',
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => 0,
+  'region' => 'sidebar_second',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 306,
+  'module' => 'islandora_collection_search',
+  'delta' => 'islandora_collection_search',
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
   $export['block_custom'][] = array(
   'bid' => 1,
   'body' => '<a href="/advanced-search">Advanced Search</a>',
