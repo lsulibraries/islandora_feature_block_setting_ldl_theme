@@ -4209,6 +4209,48 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'title' => '',
   'cache' => -1,
 );
+  $export['block'][] = array(
+  'bid' => 319,
+  'module' => 'book',
+  'delta' => 'navigation',
+  'theme' => 'bartik',
+  'status' => 1,
+  'weight' => 0,
+  'region' => 'sidebar_first',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => 'Documentation',
+  'cache' => 5,
+);
+  $export['block'][] = array(
+  'bid' => 320,
+  'module' => 'book',
+  'delta' => 'navigation',
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => 'Documentation',
+  'cache' => 5,
+);
+  $export['block'][] = array(
+  'bid' => 321,
+  'module' => 'book',
+  'delta' => 'navigation',
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => 'Documentation',
+  'cache' => 5,
+);
   $export['block_custom'][] = array(
   'bid' => 1,
   'body' => '<a href="/advanced-search">Advanced Search</a>',
