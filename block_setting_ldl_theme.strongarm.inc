@@ -98,14 +98,14 @@ function block_setting_ldl_theme_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_frontpage';
-  $strongarm->value = 'browse-collections';
+  $strongarm->value = 'node';
   $export['site_frontpage'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
-  $strongarm->value = 'bartik';
+  $strongarm->value = 'ldl';
   $export['theme_default'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -123,7 +123,7 @@ function block_setting_ldl_theme_strongarm() {
     'toggle_main_menu' => 0,
     'toggle_secondary_menu' => 0,
     'default_logo' => 1,
-    'logo_path' => 'public://logo_0.png',
+    'logo_path' => '',
     'logo_upload' => '',
     'default_favicon' => 1,
     'favicon_path' => '',
@@ -196,6 +196,7 @@ function block_setting_ldl_theme_strongarm() {
       'modules/search/search.css' => 0,
       'modules/user/user.css' => 0,
       'sites/all/modules/views/css/views.css' => 0,
+      'sites/all/themes/ldl/system.menus.css' => 0,
       'misc/vertical-tabs.css' => 0,
       'modules/aggregator/aggregator.css' => 0,
       'modules/block/block.css' => 0,
@@ -231,11 +232,12 @@ function block_setting_ldl_theme_strongarm() {
       2 => 0,
       3 => 0,
       4 => 0,
+      8 => 0,
     ),
     'alpha_toggle_messages' => 1,
     'alpha_toggle_action_links' => 1,
     'alpha_toggle_tabs' => 1,
-    'alpha_toggle_breadcrumb' => 1,
+    'alpha_toggle_breadcrumb' => 0,
     'alpha_toggle_page_title' => 1,
     'alpha_toggle_feed_icons' => 1,
     'alpha_hidden_title' => 0,

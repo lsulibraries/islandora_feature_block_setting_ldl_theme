@@ -1001,7 +1001,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'visibility' => 1,
   'pages' => 'islandora/object/*',
   'title' => '',
-  'cache' => -1,
+  'cache' => 4,
 );
   $export['block'][] = array(
   'bid' => 72,
@@ -1015,7 +1015,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'visibility' => 1,
   'pages' => 'islandora/object/*',
   'title' => '',
-  'cache' => -1,
+  'cache' => 4,
 );
   $export['block'][] = array(
   'bid' => 73,
@@ -2857,7 +2857,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'logo',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => 0,
+  'weight' => -30,
   'region' => 'header_first',
   'custom' => 0,
   'visibility' => 0,
@@ -2871,7 +2871,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'site-name',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => 0,
+  'weight' => -29,
   'region' => 'header_first',
   'custom' => 0,
   'visibility' => 0,
@@ -2926,9 +2926,9 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'module' => 'delta_blocks',
   'delta' => 'breadcrumb',
   'theme' => 'ldl',
-  'status' => 0,
-  'weight' => -30,
-  'region' => -1,
+  'status' => 1,
+  'weight' => -27,
+  'region' => 'header_second',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -3017,7 +3017,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'visibility' => 1,
   'pages' => 'islandora/object/*',
   'title' => '',
-  'cache' => -1,
+  'cache' => 4,
 );
   $export['block'][] = array(
   'bid' => 216,
@@ -3082,7 +3082,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'theme' => 'ldl',
   'status' => 1,
   'weight' => -24,
-  'region' => 'content',
+  'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 1,
   'pages' => 'islandora/object/*',
@@ -3123,8 +3123,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'simple',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => 2,
-  'region' => 'header_second',
+  'weight' => -27,
+  'region' => 'header_first',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -3767,7 +3767,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 1,
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => 3,
+  'weight' => -23,
   'region' => 'header_second',
   'custom' => 0,
   'visibility' => 0,
@@ -3892,9 +3892,9 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'module' => 'block',
   'delta' => 4,
   'theme' => 'ldl',
-  'status' => 1,
+  'status' => 0,
   'weight' => 1,
-  'region' => 'header_second',
+  'region' => -1,
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -3976,9 +3976,9 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'module' => 'block',
   'delta' => 6,
   'theme' => 'ldl',
-  'status' => 1,
+  'status' => 0,
   'weight' => -29,
-  'region' => 'content',
+  'region' => -1,
   'custom' => 0,
   'visibility' => 1,
   'pages' => '<front>',
@@ -4130,9 +4130,9 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'module' => 'views',
   'delta' => '5164407b51848f38225ffcf1293862b3',
   'theme' => 'ldl',
-  'status' => 1,
+  'status' => 0,
   'weight' => -22,
-  'region' => 'content',
+  'region' => -1,
   'custom' => 0,
   'visibility' => 1,
   'pages' => '<front>',
@@ -4187,8 +4187,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'islandora_collection_search',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => 0,
-  'region' => 'sidebar_second',
+  'weight' => -21,
+  'region' => 'content',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -4250,6 +4250,216 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'pages' => '',
   'title' => 'Documentation',
   'cache' => 5,
+);
+  $export['block'][] = array(
+  'bid' => 322,
+  'module' => 'islandora_solr',
+  'delta' => 'result_limit',
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 323,
+  'module' => 'trello_tickets',
+  'delta' => 'trelloExample',
+  'theme' => 'bartik',
+  'status' => 1,
+  'weight' => 0,
+  'region' => '',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => 8,
+);
+  $export['block'][] = array(
+  'bid' => 324,
+  'module' => 'islandora_solr',
+  'delta' => 'result_limit',
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 325,
+  'module' => 'trello_tickets',
+  'delta' => 'trelloExample',
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => 0,
+  'region' => '',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => 8,
+);
+  $export['block'][] = array(
+  'bid' => 326,
+  'module' => 'islandora_solr',
+  'delta' => 'result_limit',
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 327,
+  'module' => 'trello_tickets',
+  'delta' => 'trelloExample',
+  'theme' => 'seven',
+  'status' => 1,
+  'weight' => 0,
+  'region' => '',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => 8,
+);
+  $export['block'][] = array(
+  'bid' => 328,
+  'module' => 'block',
+  'delta' => 11,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 329,
+  'module' => 'block',
+  'delta' => 11,
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => -24,
+  'region' => 'content',
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 330,
+  'module' => 'block',
+  'delta' => 11,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 331,
+  'module' => 'block',
+  'delta' => 12,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 332,
+  'module' => 'block',
+  'delta' => 12,
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => -29,
+  'region' => 'content',
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 333,
+  'module' => 'block',
+  'delta' => 12,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 334,
+  'module' => 'block',
+  'delta' => 13,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 335,
+  'module' => 'block',
+  'delta' => 13,
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => -28,
+  'region' => 'content',
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 336,
+  'module' => 'block',
+  'delta' => 13,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
 );
   $export['block_custom'][] = array(
   'bid' => 1,
@@ -4333,10 +4543,14 @@ Fax (225) 578-9432</p>
 <p>Copyright 2016 All Rights Reserved<br />
 Official Web Page Of<br />
 Louisiana State University</p>
+
+<p>
+<div class="loginButton">Admin Login</div>
+</p>
 </div>
 
 <div class="footerImg"><img alt="" src="http://i.imgur.com/MuY1yyN.png" />
-<div class="footerTitle"><span class="bold">Louisiana</span>&nbsp;Digital&nbsp;Library</div>
+<div class="footerTitle">Louisiana&nbsp;Digital&nbsp;Library</div>
 </div>
 </div>
 ',
@@ -4347,6 +4561,39 @@ Louisiana State University</p>
   'bid' => 10,
   'body' => '<div class="sidebarLabel">Refine results</div>',
   'info' => 'Sidebar Facet Label',
+  'format' => 'full_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 11,
+  'body' => '<div class="homepageSection">
+<div class="homepageLabel"><div class="institutionLabel">browse by <br>institution</div></div>
+<div class="homepageText">
+<a href="/lsm" class="institutionLink lsmLink"></a><a href="/lsu" class="institutionLink lsuLink"></a><a href="/lsus" class="institutionLink lsusLink"></a><a href="/lsuhsc" class="institutionLink lsuhscLink"></a><a href="/lsuhscs" class="institutionLink lsuhscsLink"></a><a href="/latech" class="institutionLink latechLink"></a><a href="/loyno" class="institutionLink loynoLink"></a><a href="/mcneese" class="institutionLink mcneeseLink"></a><a href="/nicholls" class="institutionLink nichollsLink"></a><a href="/nsu" class="institutionLink nsuLink"></a><a href="/subr" class="institutionLink subrLink"></a><a href="/state" class="institutionLink stateLink"></a><a href="/hnoc" class="institutionLink hnocLink"></a><a href="/tulane" class="institutionLink tulaneLink"></a><a href="/ull" class="institutionLink ullLink"></a><a href="/ulm" class="institutionLink ulmLink"></a><a href="/uno" class="institutionLink unoLink"></a>
+</div>
+
+</div>',
+  'info' => 'Homepage Institution List',
+  'format' => 'full_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 12,
+  'body' => 'Louisiana Digital Library',
+  'info' => 'Homepage Hero Image',
+  'format' => 'filtered_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 13,
+  'body' => '<div class="homepageSection">
+<div class="homepageLabel welcomeLabel"></div>
+
+<div class="homepageText">
+<h1>Let\'s discover Louisiana together.</h1>
+
+<p>The Louisiana Digital Library (LDL) is an online library of Louisiana institutions that provides over 144,000 digital materials. Its purpose is to make unique historical treasures from the Louisiana institution\'s archives, libraries, museums, and other repositories in the state electronically accessible to Louisiana residents and to students, researchers, and the general public in other states and countries. The Louisiana Digital Library contains photographs, maps, manuscript materials, books, oral histories, and more that document history and culture. We hope that you find the items in the Digital Library as diverse and interesting as the people and places in Louisiana.</p>
+</div>
+</div>
+',
+  'info' => 'Homepage Welcome',
   'format' => 'full_html',
 );
   $export['block_node_type'][] = array(
