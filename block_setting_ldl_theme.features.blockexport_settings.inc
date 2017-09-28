@@ -438,8 +438,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'weight' => -18,
   'region' => 'sidebar_second',
   'custom' => 0,
-  'visibility' => 1,
-  'pages' => 'advanced-search',
+  'visibility' => 0,
+  'pages' => '',
   'title' => '',
   'cache' => -1,
 );
@@ -550,8 +550,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'weight' => 0,
   'region' => -1,
   'custom' => 0,
-  'visibility' => 1,
-  'pages' => 'advanced-search',
+  'visibility' => 0,
+  'pages' => '',
   'title' => '',
   'cache' => -1,
 );
@@ -1208,8 +1208,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'weight' => 0,
   'region' => 'sidebar_second',
   'custom' => 0,
-  'visibility' => 1,
-  'pages' => 'advanced-search',
+  'visibility' => 0,
+  'pages' => '',
   'title' => '',
   'cache' => -1,
 );
@@ -1740,8 +1740,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'weight' => 0,
   'region' => 'sidebar_second',
   'custom' => 0,
-  'visibility' => 1,
-  'pages' => 'advanced-search',
+  'visibility' => 0,
+  'pages' => '',
   'title' => '',
   'cache' => -1,
 );
@@ -2272,8 +2272,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'weight' => 0,
   'region' => 'sidebar_second',
   'custom' => 0,
-  'visibility' => 1,
-  'pages' => 'advanced-search',
+  'visibility' => 0,
+  'pages' => '',
   'title' => '',
   'cache' => -1,
 );
@@ -3112,8 +3112,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'weight' => -26,
   'region' => 'content',
   'custom' => 0,
-  'visibility' => 1,
-  'pages' => 'advanced-search',
+  'visibility' => 0,
+  'pages' => '',
   'title' => '',
   'cache' => -1,
 );
@@ -4461,12 +4461,40 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'title' => '',
   'cache' => -1,
 );
+  $export['block'][] = array(
+  'bid' => 337,
+  'module' => 'block',
+  'delta' => 14,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 338,
+  'module' => 'block',
+  'delta' => 14,
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => 0,
+  'region' => 'content',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
   $export['block_custom'][] = array(
   'bid' => 1,
-  'body' => '<a href="/documentation">Documentation</a> <a href="/advanced-search">Advanced Search</a>
+  'body' => '<p><a href="/documentation">Documentation</a> <a class="advLink" href="#advanced">Advanced Search</a>  <a class="contactLink" href="#contact">Contact Us</a></p>
 ',
   'info' => 'Documentation and Advanced Search Link',
-  'format' => 'filtered_html',
+  'format' => 'full_html',
 );
   $export['block_custom'][] = array(
   'bid' => 2,
@@ -4535,19 +4563,11 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'bid' => 9,
   'body' => '<div class="footerContainer">
 <div class="footerText">
-<p>Middleton Library<br />
-Baton Rouge, LA 70803</p>
 
-<p>Tel (225) 578-5652<br />
-Fax (225) 578-9432</p>
 
-<p>Copyright 2016 All Rights Reserved<br />
-Official Web Page Of<br />
-Louisiana State University</p>
-
-<p>
 <div class="loginButton">Admin Login</div>
-</p>
+
+<p>&nbsp;</p>
 </div>
 
 <div class="footerImg"><img alt="" src="http://i.imgur.com/MuY1yyN.png" />
@@ -4567,34 +4587,64 @@ Louisiana State University</p>
   $export['block_custom'][] = array(
   'bid' => 11,
   'body' => '<div class="homepageSection">
-<div class="homepageLabel"><div class="institutionLabel">browse by institution</div></div>
 <div class="homepageText">
-<a href="/dcc" class="institutionLink dccLink"></a><a href="/lsm" class="institutionLink lsmLink"></a><a href="/lsu" class="institutionLink lsuLink"></a><a href="/lsus" class="institutionLink lsusLink"></a><a href="/lsuhsc" class="institutionLink lsuhscLink"></a><a href="/lsuhscs" class="institutionLink lsuhscsLink"></a><a href="/latech" class="institutionLink latechLink"></a><a href="/loyno" class="institutionLink loynoLink"></a><a href="/mcneese" class="institutionLink mcneeseLink"></a><a href="/nicholls" class="institutionLink nichollsLink"></a><a href="/nsu" class="institutionLink nsuLink"></a><a href="/subr" class="institutionLink subrLink"></a><a href="/state" class="institutionLink stateLink"></a><a href="/hnoc" class="institutionLink hnocLink"></a><a href="/tulane" class="institutionLink tulaneLink"></a><a href="/ull" class="institutionLink ullLink"></a><a href="/ulm" class="institutionLink ulmLink"></a><a href="/uno" class="institutionLink unoLink"></a><a href="/vville" class="institutionLink vvilleLink"></a>
+<a href="/lsm" class="institutionLink lsmLink"><div class="institutionLink_meta">Louisiana State Museum</div></a><a href="/lsu" class="institutionLink lsuLink"><div class="institutionLink_meta">Louisiana State University</div></a><a href="/lsus" class="institutionLink lsusLink"><div class="institutionLink_meta">Louisiana State University Shreveport</div></a><a href="/lsuhsc" class="institutionLink lsuhscLink"><div class="institutionLink_meta">Louisiana State University Health New Orleans</div></a><a href="/lsuhscs" class="institutionLink lsuhscsLink"><div class="institutionLink_meta">Louisiana State University Health Shreveport</div></a><a href="/latech" class="institutionLink latechLink"><div class="institutionLink_meta">Louisiana Tech University</div></a><a href="/loyno" class="institutionLink loynoLink"><div class="institutionLink_meta">Loyola University New Orleans</div></a><a href="/mcneese" class="institutionLink mcneeseLink"><div class="institutionLink_meta">McNeese State University</div></a><a href="/nicholls" class="institutionLink nichollsLink"><div class="institutionLink_meta">Nicholls State University</div></a><a href="/nsu" class="institutionLink nsuLink"><div class="institutionLink_meta">Northwestern State University</div></a><a href="/subr" class="institutionLink subrLink"><div class="institutionLink_meta">Southern University and A&M College</div></a><a href="/state" class="institutionLink stateLink"><div class="institutionLink_meta">State Library of Louisiana</div></a><a href="/hnoc" class="institutionLink hnocLink"><div class="institutionLink_meta">The Historic New Orleans Collection</div></a><a href="/tulane" class="institutionLink tulaneLink"><div class="institutionLink_meta">Tulane University</div></a><a href="/ull" class="institutionLink ullLink"><div class="institutionLink_meta">University of Louisiana at Lafayette</div></a><a href="/ulm" class="institutionLink ulmLink"><div class="institutionLink_meta">University of Louisiana Monroe</div></a><a href="/uno" class="institutionLink unoLink"><div class="institutionLink_meta">University of New Orleans</div></a>
 </div>
-
 </div>',
   'info' => 'Homepage Institution List',
   'format' => 'full_html',
 );
   $export['block_custom'][] = array(
   'bid' => 12,
-  'body' => 'Louisiana Digital Library',
+  'body' => '<span class="louisianaText">Louisiana</span>
+<span class="digitallibraryText">Digital&nbsp;Library</span>
+',
   'info' => 'Homepage Hero Image',
-  'format' => 'filtered_html',
+  'format' => 'full_html',
 );
   $export['block_custom'][] = array(
   'bid' => 13,
-  'body' => '<div class="homepageSection">
-<div class="homepageLabel welcomeLabel">&nbsp;</div>
-
-<div class="homepageText">
-<h1>Let\'s discover Louisiana together.</h1>
-
+  'body' => '<div class="homepageText">
 <p>The Louisiana Digital Library (LDL) is an online library of Louisiana institutions that provides over 144,000 digital materials. Its purpose is to make unique historical treasures from the Louisiana institution\'s archives, libraries, museums, and other repositories in the state electronically accessible to Louisiana residents and to students, researchers, and the general public in other states and countries. The Louisiana Digital Library contains photographs, maps, manuscript materials, books, oral histories, and more that document history and culture. We hope that you find the items in the Digital Library as diverse and interesting as the people and places in Louisiana.<a class="viewallButton" href="/islandora/object/islandora%3Aroot">View&nbsp;all&nbsp;collections</a></p>
-</div>
 </div>
 ',
   'info' => 'Homepage Welcome',
+  'format' => 'full_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 14,
+  'body' => '
+<h2>Contact the Louisiana Digital Library </h2>
+
+<h3>Permissions/rights/reproduction and information requests:</h3>
+<p>The Louisiana Digital Library (LDL) is composed of collections from many different institutions. Permission to publish and acquire images or requests for more information about materials that you find in the LDL, should be directed to the institution that contributed the item to the LDL. To find the contact who can help you, find the field called "Contact Information" next to the image of interest to you. The Louisiana Digital Library is a service provider only and has no authority to grant permission to publish or supply high-resolution images.</p>
+<ul>
+<li>Louisiana State Museum: lsm@crt.state.la.us</li>
+<li>Louisiana State University: diglib@lsu.edu</li>
+<li>Louisiana State University Shreveport: libarchives@lsus.edu</li>
+<li>Louisiana State University Health Sciences Center: digitalarchives@lsuhsc.edu</li>
+<li>Louisiana State University Health Sciences Center Shreveport: http://lib.sh.lsuhsc.edu/</li>
+<li>Louisiana Tech University: specialcollections@latech.edu</li>
+<li>Loyola University New Orleans: archives@loyno.edu</li>
+<li>McNeese State University: archivesdept@mcneese.edu</li>
+<li>Nicholls State University: http://nicholls.libguides.com/archives</li>
+<li>Northwestern State University of Louisiana: wernet@nsula.edu</li>
+<li>Southern University: archives@subr.edu</li>
+<li>State Library of Louisiana: lacoll@state.lib.la.us</li>
+<li>The Historic New Orleans Collection: louisquery@hnoc.org</li>
+<li>Tulane University: digitallibrary@tulane.edu</li>
+<li>University of Louisiana Lafayette: archives@louisiana.edu</li>
+<li>University of Louisiana Monroe: http://ulm.edu/library/archives/</li>
+<li>University of New Orleans: libspec@uno.edu</li>
+</ul>
+<h3>Technical assistant/site support</h3>
+
+<p>The Louisiana Digital Library platform has been developed by LSU Libraries on behalf of the Louisiana Digital Consortium. It runs on the Islandora open-source digital repository software.</p>
+
+<p>LSU Libraries\' Technology Initiatives: diglib@lsu.edu. </p>
+
+<p>Thanks for your interest in the Louisiana Digital Library.</p>',
+  'info' => 'Contact Us',
   'format' => 'full_html',
 );
   $export['block_node_type'][] = array(
