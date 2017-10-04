@@ -4609,37 +4609,40 @@ function block_setting_ldl_theme_default_blockexport_settings() {
 );
   $export['block_custom'][] = array(
   'bid' => 14,
-  'body' => '
-<h2>Contact the Louisiana Digital Library </h2>
+  'body' => '<h2>Contact the Louisiana Digital Library</h2>
 
 <h3>Permissions/rights/reproduction and information requests:</h3>
-<p>The Louisiana Digital Library (LDL) is composed of collections from many different institutions. Permission to publish and acquire images or requests for more information about materials that you find in the LDL, should be directed to the institution that contributed the item to the LDL. To find the contact who can help you, find the field called "Contact Information" next to the image of interest to you. The Louisiana Digital Library is a service provider only and has no authority to grant permission to publish or supply high-resolution images.</p>
+
+<p>The Louisiana Digital Library (LDL) is composed of collections from many different institutions. Permission to publish and acquire images or requests for more information about materials that you find in the LDL should be directed to the institution that contributed the item to the LDL. To find the contact who can help you, find the field called "Contact Information" next to the image of interest to you. The Louisiana Digital Library is a service provider only and has no authority to grant permission to publish or supply high-resolution images.</p>
+
 <ul>
-<li>Louisiana State Museum: lsm@crt.state.la.us</li>
-<li>Louisiana State University: diglib@lsu.edu</li>
-<li>Louisiana State University Shreveport: libarchives@lsus.edu</li>
-<li>Louisiana State University Health Sciences Center: digitalarchives@lsuhsc.edu</li>
-<li>Louisiana State University Health Sciences Center Shreveport: http://lib.sh.lsuhsc.edu/</li>
-<li>Louisiana Tech University: specialcollections@latech.edu</li>
-<li>Loyola University New Orleans: archives@loyno.edu</li>
-<li>McNeese State University: archivesdept@mcneese.edu</li>
-<li>Nicholls State University: http://nicholls.libguides.com/archives</li>
-<li>Northwestern State University of Louisiana: wernet@nsula.edu</li>
-<li>Southern University: archives@subr.edu</li>
-<li>State Library of Louisiana: lacoll@state.lib.la.us</li>
-<li>The Historic New Orleans Collection: louisquery@hnoc.org</li>
-<li>Tulane University: digitallibrary@tulane.edu</li>
-<li>University of Louisiana Lafayette: archives@louisiana.edu</li>
-<li>University of Louisiana Monroe: http://ulm.edu/library/archives/</li>
-<li>University of New Orleans: libspec@uno.edu</li>
+	<li>Louisiana State Museum: lsm@crt.state.la.us</li>
+	<li>Louisiana State University: diglib@lsu.edu</li>
+	<li>Louisiana State University Shreveport: libarchives@lsus.edu</li>
+	<li>Louisiana State University Health Sciences Center: digitalarchives@lsuhsc.edu</li>
+	<li>Louisiana State University Health Sciences Center Shreveport: http://lib.sh.lsuhsc.edu/</li>
+	<li>Louisiana Tech University: specialcollections@latech.edu</li>
+	<li>Loyola University New Orleans: archives@loyno.edu</li>
+	<li>McNeese State University: archivesdept@mcneese.edu</li>
+	<li>Nicholls State University: http://nicholls.libguides.com/archives</li>
+	<li>Northwestern State University of Louisiana: wernet@nsula.edu</li>
+	<li>Southern University: archives@subr.edu</li>
+	<li>State Library of Louisiana: lacoll@state.lib.la.us</li>
+	<li>The Historic New Orleans Collection: louisquery@hnoc.org</li>
+	<li>Tulane University: digitallibrary@tulane.edu</li>
+	<li>University of Louisiana Lafayette: archives@louisiana.edu</li>
+	<li>University of Louisiana Monroe: http://ulm.edu/library/archives/</li>
+	<li>University of New Orleans: libspec@uno.edu</li>
 </ul>
+
 <h3>Technical assistant/site support</h3>
 
 <p>The Louisiana Digital Library platform has been developed by LSU Libraries on behalf of the Louisiana Digital Consortium. It runs on the Islandora open-source digital repository software.</p>
 
-<p>LSU Libraries\' Technology Initiatives: diglib@lsu.edu. </p>
+<p>LSU Libraries\' Technology Initiatives: diglib@lsu.edu.</p>
 
-<p>Thanks for your interest in the Louisiana Digital Library.</p>',
+<p>Thanks for your interest in the Louisiana Digital Library.</p>
+',
   'info' => 'Contact Us',
   'format' => 'full_html',
 );
