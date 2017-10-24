@@ -3754,7 +3754,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'theme' => 'bartik',
   'status' => 0,
   'weight' => 0,
-  'region' => -1,
+  'region' => '',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -4489,9 +4489,37 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'title' => '',
   'cache' => -1,
 );
+  $export['block'][] = array(
+  'bid' => 341,
+  'module' => 'views',
+  'delta' => 'meeting_minutes-block_1',
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 342,
+  'module' => 'views',
+  'delta' => 'meeting_minutes-block_1',
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => 0,
+  'region' => 'content',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
   $export['block_custom'][] = array(
   'bid' => 1,
-  'body' => '<p><a href="/documentation">Documentation</a> <a class="advLink" href="#advanced">Advanced Search</a>  <a class="contactLink" href="#contact">Contact Us</a></p>
+  'body' => '<p><a href="/documentation">Documentation</a> <a class="advLink" href="#advanced">Advanced Search</a> <a class="contactLink" href="#contact">Contact Us</a><a class="ldcLink" href="#about-ldc">About LDC</a></p>
 ',
   'info' => 'Documentation and Advanced Search Link',
   'format' => 'full_html',
