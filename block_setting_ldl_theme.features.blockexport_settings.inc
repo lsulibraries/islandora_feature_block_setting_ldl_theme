@@ -4629,9 +4629,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   $export['block_custom'][] = array(
   'bid' => 13,
   'body' => '<div class="homepageText">
-<p>The Louisiana Digital Library (LDL) is an online library of Louisiana institutions that provides over 144,000 digital materials. Its purpose is to make unique historical treasures from the Louisiana institution\'s archives, libraries, museums, and other repositories in the state electronically accessible to Louisiana residents and to students, researchers, and the general public in other states and countries. The Louisiana Digital Library contains photographs, maps, manuscript materials, books, oral histories, and more that document history and culture. We hope that you find the items in the Digital Library as diverse and interesting as the people and places in Louisiana.<a class="viewallButton" href="/islandora/object/islandora%3Aroot">View&nbsp;all&nbsp;collections</a></p>
-</div>
-',
+<p>The Louisiana Digital Library (LDL) is an online library of more than 144,000 digital items from Louisiana archives, libraries, museums, and other repositories, making unique historical treasure accessible to students, researchers, and the general public in Louisiana and across the globe. The items in the Louisiana Digital Library are as diverse and interesting as the people and places in Louisiana, with photographs, maps, manuscript materials, books, oral histories, and more documenting the state’s history and culture</p>
+</div>',
   'info' => 'Homepage Welcome',
   'format' => 'full_html',
 );
