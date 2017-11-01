@@ -4426,7 +4426,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'theme' => 'bartik',
   'status' => 0,
   'weight' => 0,
-  'region' => -1,
+  'region' => '',
   'custom' => 0,
   'visibility' => 1,
   'pages' => '<front>',
@@ -4454,7 +4454,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'theme' => 'seven',
   'status' => 0,
   'weight' => 0,
-  'region' => -1,
+  'region' => '',
   'custom' => 0,
   'visibility' => 1,
   'pages' => '<front>',
@@ -4516,6 +4516,76 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'pages' => '',
   'title' => '',
   'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 343,
+  'module' => 'context_ui',
+  'delta' => 'devel',
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => 1,
+);
+  $export['block'][] = array(
+  'bid' => 344,
+  'module' => 'menu',
+  'delta' => 'devel',
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 345,
+  'module' => 'devel',
+  'delta' => 'execute_php',
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 346,
+  'module' => 'devel',
+  'delta' => 'switch_user',
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 347,
+  'module' => 'block',
+  'delta' => 13,
+  'theme' => 'stark',
+  'status' => 0,
+  'weight' => 0,
+  'region' => '',
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => 1,
 );
   $export['block_custom'][] = array(
   'bid' => 1,
@@ -4629,7 +4699,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   $export['block_custom'][] = array(
   'bid' => 13,
   'body' => '<div class="homepageText">
-<p>The Louisiana Digital Library (LDL) is an online library of more than 144,000 digital items from Louisiana archives, libraries, museums, and other repositories, making unique historical treasure accessible to students, researchers, and the general public in Louisiana and across the globe. The items in the Louisiana Digital Library are as diverse and interesting as the people and places in Louisiana, with photographs, maps, manuscript materials, books, oral histories, and more documenting the state’s history and culture</p>
+<p>The Louisiana Digital Library (LDL) is an online library of more than 144,000 digital items from Louisiana archives, libraries, museums, and other repositories, making unique historical treasure accessible to students, researchers, and the general public in Louisiana and across the globe. The items in the Louisiana Digital Library are as diverse and interesting as the people and places in Louisiana, with photographs, maps, manuscript materials, books, oral histories, and more documenting the state’s history and culture.<a class="viewallButton" href="/islandora/object/islandora%3Aroot">View&nbsp;all&nbsp;collections</a></p>
 </div>',
   'info' => 'Homepage Welcome',
   'format' => 'full_html',
