@@ -2843,7 +2843,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'recent',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 9,
+  'weight' => -3,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2885,7 +2885,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'site-slogan',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 16,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2899,7 +2899,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'branding',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -26,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2913,7 +2913,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'page-title',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 7,
+  'weight' => -6,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2927,7 +2927,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'breadcrumb',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -27,
+  'weight' => -30,
   'region' => 'header_second',
   'custom' => 0,
   'visibility' => 0,
@@ -2941,7 +2941,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'tabs',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 19,
+  'weight' => 4,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2955,7 +2955,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'messages',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 3,
+  'weight' => -9,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2969,7 +2969,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'action-links',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -29,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2983,7 +2983,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'feed-icons',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -23,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2997,7 +2997,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'inline',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -20,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3025,7 +3025,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'collection_object_count',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -18,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3039,7 +3039,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'collection_listing',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -19,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3081,7 +3081,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'compound_navigation',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -24,
+  'weight' => -31,
   'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 1,
@@ -3095,7 +3095,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'compound_jail_display',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -26,
+  'weight' => -29,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 1,
@@ -3109,7 +3109,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'advanced',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -26,
+  'weight' => -28,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 0,
@@ -3137,7 +3137,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'basic_facets',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -20,
+  'weight' => -29,
   'region' => 'sidebar_first',
   'custom' => 1,
   'visibility' => 0,
@@ -3151,7 +3151,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'current_query',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -14,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3165,7 +3165,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'display_switch',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -16,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3179,7 +3179,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'sort',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -23,
+  'weight' => -25,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 0,
@@ -3193,7 +3193,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'explore',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -15,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3207,7 +3207,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'search_navigation',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -25,
+  'weight' => -27,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 0,
@@ -3221,7 +3221,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'islandora-solr-facet-pages',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -17,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3291,7 +3291,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'features',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -24,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3305,7 +3305,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'syndicate',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 17,
+  'weight' => 2,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3319,7 +3319,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'recent',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 10,
+  'weight' => -2,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3333,7 +3333,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'form',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 13,
+  'weight' => -1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3347,7 +3347,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'shortcuts',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 14,
+  'weight' => 0,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3361,7 +3361,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'main',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -22,
+  'weight' => -24,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 0,
@@ -3375,7 +3375,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'powered-by',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 8,
+  'weight' => -5,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3389,7 +3389,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'help',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 18,
+  'weight' => 3,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3403,7 +3403,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'navigation',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -20,
+  'weight' => -7,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3417,7 +3417,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'management',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 2,
+  'weight' => -10,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3431,7 +3431,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'user-menu',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 22,
+  'weight' => 6,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3445,7 +3445,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'main-menu',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -11,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3459,7 +3459,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'login',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -19,
+  'weight' => -27,
   'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 0,
@@ -3473,7 +3473,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'new',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 23,
+  'weight' => 8,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3487,7 +3487,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'online',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 24,
+  'weight' => 9,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3515,7 +3515,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => '2e471cea8459491b84c00c691114ef5c',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -21,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3529,7 +3529,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => '7196cbb81df1d17ca0cd459c31c8eac4',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -22,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3711,7 +3711,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'editor',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -25,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3767,7 +3767,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 1,
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -23,
+  'weight' => -29,
   'region' => 'header_second',
   'custom' => 0,
   'visibility' => 0,
@@ -3809,7 +3809,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 2,
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 0,
+  'weight' => 5,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3851,7 +3851,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 3,
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 7,
+  'weight' => -30,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3893,7 +3893,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 4,
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 1,
+  'weight' => -27,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3935,7 +3935,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 5,
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 4,
+  'weight' => -28,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3977,7 +3977,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 6,
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -29,
+  'weight' => 7,
   'region' => -1,
   'custom' => 0,
   'visibility' => 1,
@@ -4019,7 +4019,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 8,
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 0,
+  'weight' => -12,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -4061,7 +4061,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 9,
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -21,
+  'weight' => -23,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 0,
@@ -4103,7 +4103,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 10,
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -21,
+  'weight' => -30,
   'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 0,
@@ -4131,7 +4131,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => '5164407b51848f38225ffcf1293862b3',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -22,
+  'weight' => -8,
   'region' => -1,
   'custom' => 0,
   'visibility' => 1,
@@ -4187,7 +4187,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'islandora_collection_search',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -21,
+  'weight' => -22,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 0,
@@ -4285,7 +4285,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'result_limit',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => 0,
+  'weight' => -13,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -4355,7 +4355,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 11,
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -24,
+  'weight' => -26,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 1,
@@ -4397,7 +4397,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 12,
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -29,
+  'weight' => -31,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 1,
@@ -4439,7 +4439,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 13,
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -28,
+  'weight' => -30,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 1,
@@ -4481,7 +4481,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 14,
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => 0,
+  'weight' => -21,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 0,
@@ -4509,7 +4509,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'meeting_minutes-block_1',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => 0,
+  'weight' => -20,
   'region' => 'content',
   'custom' => 0,
   'visibility' => 0,
@@ -4615,9 +4615,93 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'title' => '',
   'cache' => -1,
 );
+  $export['block'][] = array(
+  'bid' => 350,
+  'module' => 'blog',
+  'delta' => 'recent',
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => 1,
+);
+  $export['block'][] = array(
+  'bid' => 351,
+  'module' => 'blog',
+  'delta' => 'recent',
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => -4,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => 1,
+);
+  $export['block'][] = array(
+  'bid' => 352,
+  'module' => 'blog',
+  'delta' => 'recent',
+  'theme' => 'seven',
+  'status' => 1,
+  'weight' => 0,
+  'region' => 'dashboard_inactive',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => 1,
+);
+  $export['block'][] = array(
+  'bid' => 353,
+  'module' => 'block',
+  'delta' => 15,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 354,
+  'module' => 'block',
+  'delta' => 15,
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => -31,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 355,
+  'module' => 'block',
+  'delta' => 15,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
   $export['block_custom'][] = array(
   'bid' => 1,
-  'body' => '<p><a href="/documentation">Documentation</a> <a class="advLink" href="#advanced">Advanced Search</a> <a class="contactLink" href="#contact">Contact Us</a><a class="ldcLink" href="#about-ldc">About LDC</a></p>
+  'body' => '<p><a class="advLink" href="#advanced">Advanced Search</a> <a class="contactLink" href="#contact">Contact Us</a><a class="ldcLink" href="#about-ldc">About</a></p>
 ',
   'info' => 'Documentation and Advanced Search Link',
   'format' => 'full_html',
@@ -4689,8 +4773,6 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'bid' => 9,
   'body' => '<div class="footerContainer">
 <div class="footerText">
-
-
 <div class="loginButton">Admin Login</div>
 
 <p>&nbsp;</p>
@@ -4698,7 +4780,6 @@ function block_setting_ldl_theme_default_blockexport_settings() {
 
 <div class="footerImg"><img alt="" src="http://i.imgur.com/MuY1yyN.png" />
 <div class="footerTitle">Louisiana&nbsp;Digital&nbsp;Library</div>
-</div>
 </div>
 ',
   'info' => 'Flex Footer',
@@ -4758,6 +4839,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
 	<li>University of Louisiana Lafayette: archives@louisiana.edu</li>
 	<li>University of Louisiana Monroe: http://ulm.edu/library/archives/</li>
 	<li>University of New Orleans: libspec@uno.edu</li>
+    <li>Vermilionville Living History Museum and Folklife Park: curator@bayouvermiliondistrict.org</li>
 </ul>
 
 <h3>Technical assistant/site support</h3>
@@ -4769,6 +4851,59 @@ function block_setting_ldl_theme_default_blockexport_settings() {
 <p>Thanks for your interest in the Louisiana Digital Library.</p>
 ',
   'info' => 'Contact Us',
+  'format' => 'full_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 15,
+  'body' => '<h2>About the Louisiana Digital Library (LDL)</h2>
+
+<p>The Louisiana Digital Library (LDL) is an online library containing photographs, maps, manuscript materials, books, oral histories, and other items that document the history and culture of Louisiana. Items comes to the LDL from institutions across the state, including libraries, museums, archives, and historical organizations.</p>
+
+<p>Currently, there are 18 participating institutions in the LDL. Each institution contributes the digital items and the descriptive text for their collections.</p>
+
+<ul>
+	<li>Louisiana State Museum (<a href="http://louisianadigitallibrary.org/lsm">LSM</a>)</li>
+	<li>Louisiana State University (<a href="http://louisianadigitallibrary.org/lsu">LSU</a>)</li>
+	<li>Louisiana State University at Shreveport (<a href="http://louisianadigitallibrary.org/lsus">LSUS</a>)</li>
+	<li>Louisiana State University Health Sciences Center New Orleans (<a href="http://louisianadigitallibrary.org/lsuhsc">LSUHSC</a>)</li>
+	<li>Louisiana State University Health Sciences Center Shreveport (<a href="http://louisianadigitallibrary.org/lsuhscs">LSUHSCS</a>)</li>
+	<li>Louisiana Tech University (<a href="http://louisianadigitallibrary.org/latech">LATECH</a>)</li>
+	<li>Loyola University New Orleans (<a href="http://louisianadigitallibrary.org/loyno">LOYNO</a>)</li>
+	<li>McNeese State University (<a href="http://louisianadigitallibrary.org/mcneese">MCNEESE</a>)</li>
+	<li>Nicholls State University (<a href="http://louisianadigitallibrary.org/nicholls">NICHOLLS</a>)</li>
+	<li>Northwestern State University (<a href="http://louisianadigitallibrary.org/nsu">NSU</a>)</li>
+	<li>Southern University and A and M College (<a href="http://louisianadigitallibrary.org/subr">SUBR</a>)</li>
+	<li>State Library Of Louisiana (<a href="http://louisianadigitallibrary.org/state">STATE</a>)</li>
+	<li>The Historic New Orleans Collection (<a href="http://louisianadigitallibrary.org/hnoc">HNOC</a>)</li>
+	<li>Tulane University (<a href="http://louisianadigitallibrary.org/tulane">TULANE</a>)</li>
+	<li>University of Louisiana at Lafayette (<a href="http://louisianadigitallibrary.org/ull">ULL</a>)</li>
+	<li>University of Louisiana at Monroe (<a href="http://louisianadigitallibrary.org/ulm">ULM</a>)</li>
+	<li>University of New Orleans (<a href="http://louisianadigitallibrary.org/uno">UNO</a>)</li>
+	<li>Vermilionville Living Museum (<a href="http://louisianadigitallibrary.org/vville">VVILLE</a>)</li>
+</ul>
+
+<p>The LDL is built with&nbsp;<a href="https://islandora.ca/" rel="nofollow">Islandora</a>, an open source digital library system based on&nbsp;<a href="http://www.fedora-commons.org/" rel="nofollow">Fedora</a>,&nbsp;<a href="http://drupal.org/" rel="nofollow">Drupal</a>, and&nbsp;<a href="http://lucene.apache.org/solr/" rel="nofollow">Solr</a>.</p>
+
+<p>The LDL is governed by the Louisiana Digital Consortium.</p>
+
+<h2>LDL Development Team</h2>
+
+<p>The LDL Development Team consists of staff of LSU Libraries, primarily from the Technology Initiatives Team. As of the Spring 2018, this includes:</p>
+
+<ul>
+	<li>Garrett Armstrong, Digital Projects Programmer, garmstrong@lsu.edu</li>
+	<li>Dave Comeaux, Web Development Librarian, davidcomeaux@lsu.edu</li>
+	<li>William W. Conlin, Digital Projects Programmer, wconli1@lsu.edu</li>
+	<li>Gina Costello, Associate Dean for Technology Initiatives, gcoste1@lsu.edu</li>
+	<li>Gabe Harrell, Digitization Lab Manager, jharre7@lsu.edu</li>
+	<li>Cara Key, Metadata Librarian, carakey@lsu.edu</li>
+	<li>Jason Peak, Application Development/Computer Manager, jpeak5@lsu.edu</li>
+	<li>Kyle Tanglao, User Interface Designer, ktanglao@lsu.edu</li>
+	<li>Mike Waugh, Systems Librarian, mwaugh2@lsu.edu</li>
+	<li>Scott Ziegler, Head of Digital Programs and Services, sziegler1@lsu.edu</li>
+</ul>
+',
+  'info' => 'About',
   'format' => 'full_html',
 );
   $export['block_node_type'][] = array(
