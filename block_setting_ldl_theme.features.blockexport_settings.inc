@@ -4778,7 +4778,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
 <p>&nbsp;</p>
 </div>
 
-<div class="footerImg"><img alt="" src="http://i.imgur.com/MuY1yyN.png" />
+<div class="footerImg"><img alt="" src="sites/all/themes/ldl/images/MuY1yyN.png"/>
 <div class="footerTitle">Louisiana&nbsp;Digital&nbsp;Library</div>
 </div>
 ',
