@@ -4699,6 +4699,20 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'title' => '',
   'cache' => -1,
 );
+  $export['block'][] = array(
+  'bid' => 356,
+  'module' => 'block',
+  'delta' => 11,
+  'theme' => 'stark',
+  'status' => 0,
+  'weight' => 0,
+  'region' => '',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => 1,
+);
   $export['block_custom'][] = array(
   'bid' => 1,
   'body' => '<p><a class="advLink" href="#advanced">Advanced Search</a> <a class="contactLink" href="#contact">Contact Us</a><a class="ldcLink" href="#about-ldc">About</a></p>
@@ -4793,8 +4807,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
 );
   $export['block_custom'][] = array(
   'bid' => 11,
-  'body' => '<div class="homepageSection"><div class="homepageText"><a href="/lsm" class="institutionLink lsmLink"><div class="institutionLink_meta">Louisiana State Museum</div></a><a href="/lsu" class="institutionLink lsuLink"><div class="institutionLink_meta">Louisiana State University</div></a><a href="/lsus" class="institutionLink lsusLink"><div class="institutionLink_meta">Louisiana State University Shreveport</div></a><a href="/lsuhsc" class="institutionLink lsuhscLink"><div class="institutionLink_meta">Louisiana State University Health New Orleans</div></a><a href="/lsuhscs" class="institutionLink lsuhscsLink"><div class="institutionLink_meta">Louisiana State University Health Shreveport</div></a><a href="/latech" class="institutionLink latechLink"><div class="institutionLink_meta">Louisiana Tech University</div></a><a href="/loyno" class="institutionLink loynoLink"><div class="institutionLink_meta">Loyola University New Orleans</div></a><a href="/mcneese" class="institutionLink mcneeseLink"><div class="institutionLink_meta">McNeese State University</div></a><a href="/nicholls" class="institutionLink nichollsLink"><div class="institutionLink_meta">Nicholls State University</div></a><a href="/nsu" class="institutionLink nsuLink"><div class="institutionLink_meta">Northwestern State University</div></a><a href="/subr" class="institutionLink subrLink"><div class="institutionLink_meta">Southern University and A&M College</div></a><a href="/state" class="institutionLink stateLink"><div class="institutionLink_meta">State Library of Louisiana</div></a><a href="/hnoc" class="institutionLink hnocLink"><div class="institutionLink_meta">The Historic New Orleans Collection</div></a><a href="/tulane" class="institutionLink tulaneLink"><div class="institutionLink_meta">Tulane University</div></a><a href="/ull" class="institutionLink ullLink"><div class="institutionLink_meta">University of Louisiana at Lafayette</div></a><a href="/ulm" class="institutionLink ulmLink"><div class="institutionLink_meta">University of Louisiana Monroe</div></a><a href="/uno" class="institutionLink unoLink"><div class="institutionLink_meta">University of New Orleans</div></a><a href="/vville" class="institutionLink vvilleLink"><div class="institutionLink_meta">Vermilionville Living History Museum</div></a>
-',
+  'body' => '<div class="homepageSection"><div class="homepageText"><a class="institutionLink dccLink" href="/dcc"><div class="institutionLink_meta">Delgado Community College</div></a><a class="institutionLink ebrplLink" href="/ebrpl"><div class="institutionLink_meta">East Baton Rouge Parish Library</div></a><a class="institutionLink lascLink" href="/lasc"><div class="institutionLink_meta">Law Library of Louisiana</div></a><a class="institutionLink lsmLink" href="/lsm"><div class="institutionLink_meta">Louisiana State Museum</div></a><a class="institutionLink lsuLink" href="/lsu"><div class="institutionLink_meta">Louisiana State University</div></a><a class="institutionLink lsusLink" href="/lsus"><div class="institutionLink_meta">Louisiana State University Shreveport</div></a><a class="institutionLink lsuhscLink" href="/lsuhsc"><div class="institutionLink_meta">Louisiana State University Health New Orleans</div></a><a class="institutionLink lsuhscsLink" href="/lsuhscs"><div class="institutionLink_meta">Louisiana State University Health Shreveport</div></a><a class="institutionLink latechLink" href="/latech"><div class="institutionLink_meta">Louisiana Tech University</div></a><a class="institutionLink loynoLink" href="/loyno"><div class="institutionLink_meta">Loyola University New Orleans</div></a><a class="institutionLink mcneeseLink" href="/mcneese"><div class="institutionLink_meta">McNeese State University</div></a><a class="institutionLink nichollsLink" href="/nicholls"><div class="institutionLink_meta">Nicholls State University</div></a><a class="institutionLink nsuLink" href="/nsu"><div class="institutionLink_meta">Northwestern State University</div></a><a class="institutionLink subrLink" href="/subr"><div class="institutionLink_meta">Southern University and A&amp;M College</div></a><a class="institutionLink stateLink" href="/state"><div class="institutionLink_meta">State Library of Louisiana</div></a><a class="institutionLink hnocLink" href="/hnoc"><div class="institutionLink_meta">The Historic New Orleans Collection</div></a><a class="institutionLink tulaneLink" href="/tulane"><div class="institutionLink_meta">Tulane University</div></a><a class="institutionLink ullLink" href="/ull"><div class="institutionLink_meta">University of Louisiana at Lafayette</div></a><a class="institutionLink ulmLink" href="/ulm"><div class="institutionLink_meta">University of Louisiana Monroe</div></a><a class="institutionLink unoLink" href="/uno"><div class="institutionLink_meta">University of New Orleans</div></a><a class="institutionLink vvilleLink" href="/vville"><div class="institutionLink_meta">Vermilionville Living History Museum</div></a></div></div>',
   'info' => 'Homepage Institution List',
   'format' => 'full_html',
 );
